@@ -1,1 +1,6 @@
-hi
+services:
+  db:
+    type: postgres
+    instance_type: t4g.small
+  app:
+    dockerfile: Dockerfile
